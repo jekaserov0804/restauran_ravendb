@@ -9,11 +9,11 @@ Rails.application.routes.draw do
   resources :compositions
 
   namespace :test do
-    resource :dishes, only: :index
-    resource :ingredients, only: :index
-    resource :sections, only: :index
-    resource :orders, only: :index
-    resource :supplement_orders, only: :index
-    resource :compositions, only: :index
+    resources :dishes, only: :index
+    resources :ingredients, only: :index
+    resources :sections, only: :index
+    resources :orders, only: :index
+    resources :supplement_orders, only: :index
+    resources :compositions, only: :index
   end
 end
