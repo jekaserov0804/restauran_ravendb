@@ -28,6 +28,7 @@ gem 'puma', '~> 3.7'
 gem 'ravendb', git: 'https://github.com/ravendb/ravendb-ruby-client.git', branch: 'v4.0'
 gem 'pry'
 gem 'httparty'
+gem 'rack-cors', require: 'rack/cors'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
